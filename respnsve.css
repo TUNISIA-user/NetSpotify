@@ -1,0 +1,135 @@
+
+@media screen and (max-width: 700px) {
+
+    .battoom-nav-bar{
+        display: flex;
+        flex-direction: column;
+    }
+  .hr{
+     display: none;
+  }
+
+.contaienr-left{
+
+  width: 96%;
+ 
+  margin-top: 3px;
+
+  
+}
+
+.contaienr-right{
+
+  width: 96%;
+  
+  margin-top: 6px;
+  border-radius: 10px;
+}
+
+.container{
+display: flex;
+flex-direction: column;
+padding: 10px ;
+ 
+}
+
+.battoom-nav-bar{
+  
+
+  height: 100px;
+  position: sticky;
+  bottom: 0;
+}
+
+.battoom{
+  width: 100%;
+  display: none;
+ 
+  margin-top: 33px;
+
+}
+
+.card-app{
+   
+ 
+   
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin: 10px;
+ 
+
+  }
+  .container-app-card{
+ 
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+     
+  }
+ 
+
+
+
+
+  .card-img-text,.card-img-texts{
+  
+     text-align: center;
+  }
+   .incide-top{
+    
+     display: flex;
+     justify-content: space-around;
+   }
+   .premuim,.premuim-installer,.premuim-login span{
+   
+     width: 100px;
+     height: 30px;
+     border-radius: 19px;
+     text-align: center;
+     
+     background-color:#0f0f0f;
+     margin: 2px;
+     color: #FFF;
+     margin-right: 30px;
+  }
+  .premuim{
+     background-color: #ffffffed;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+  color: black;
+  }
+  .premuim-login span{
+   
+  padding: 4px;
+  }
+   .contaienr-right-switch{
+   
+     display: flex;
+    
+     
+   }
+   .premuim-installer{
+    display: none;
+   }
+   .contaienr-app-title-text-span{
+     font-size: 133px;
+   }
+   .nav-section1{
+   
+    width: 100%;
+   }
+  .nav-section1{
+    display: none;
+  }
+
+ #card-app{
+ 
+  width: 300px;
+ }
+ 
+}

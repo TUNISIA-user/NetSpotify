@@ -1,0 +1,608 @@
+ *{
+
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+ }
+
+ 
+
+ 
+ 
+ .container{
+display: flex;
+flex-direction: row;
+
+ 
+ }
+ 
+
+ 
+ 
+
+ 
+
+
+
+
+.FATHER-conatainer{
+   display: flex;
+   flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+.top{
+   width: 100%;
+     height:100px;
+ 
+   border-radius: 5px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+
+}
+
+
+
+.incide-top{
+ 
+   width: 90%;
+   
+}
+
+
+
+.Accueil, .Search {
+   display: flex;
+   align-items: center;
+ 
+ }
+ .icon{
+   color: #e2e2e2;
+ }
+ .icon-text{
+   margin-left: 10px;
+   color: #e0d0d0;
+ }
+ 
+
+
+
+ .battoom{
+   margin-top: 10px;
+   display: flex;
+   justify-content: center;
+ 
+}
+
+.container-battom{
+   margin-top: 10px;
+   
+   width: 96%;
+   height: 333px;
+   
+}
+
+
+
+
+.Bibliothèque{
+ 
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ 
+   
+}
+
+.app-Bibliothèque{
+  
+   display: flex;
+   align-items: center;
+
+   
+}
+
+
+
+
+
+
+
+
+
+.app-Bibliothèque2{
+   display: flex;
+   
+}
+
+
+
+
+
+.PlayLists,.Artistes,.Albums{
+  
+   width: 20%;
+   border-radius: 10px;
+   font-size: 14px;
+   padding: 4px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #fff;
+   margin: 3px;
+}
+ 
+
+ 
+
+.play-list{
+   display: flex;
+   
+}
+
+
+
+.play-list-icon-search{
+   
+   display: flex;
+   justify-content: space-between;
+   color: #e0d0d0;
+}
+.menu2{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+ 
+.play-list-img{
+   width: 18%;
+   border-radius: 10px;
+}
+.play-list-img img{
+ 
+   border-radius: 10px;
+}
+
+
+.play-list-list-item{
+   margin-top: 13px;
+}
+
+.play-list-proudct{
+  
+   display: flex;
+}
+.play-list-content-text{
+   width: 100%;
+  margin: 9px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   margin-left: 21px;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color:  whitesmoke;
+}
+
+
+
+
+
+
+
+
+.contaienr-right{
+   
+   width: 78.7%;
+   margin-left: 10px;
+   margin-top: 10px;
+ 
+ 
+ }
+body{
+   background-color: black;
+}
+
+
+
+
+
+
+
+
+
+.container-righ-app{
+   background: #121212;
+   display: flex;
+   justify-content: space-between;
+   padding: 14px;
+
+   
+}
+ 
+
+ 
+
+.premuim,.premuim-installer,.premuim-login span{
+    
+   width: 120px;
+   border-radius: 19px;
+   text-align: center;
+   padding: 6.6px;
+   background-color:#0f0f0f;
+   margin: 2px;
+   color: #FFF;
+}
+.premuim{
+   background-color: #ffffffed;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+color: black;
+}
+.premuim-login span{
+ 
+padding: 4px;
+}
+
+
+.contaienr-right-switch2{
+   display: flex;
+    
+}
+
+.card-app{
+background-color: #181818;
+width: 13%;
+ 
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 5px;
+flex-wrap: wrap;
+margin: 3px;
+ 
+}
+ 
+
+
+.card-img-text{
+   width:100%;
+   color: #fff;
+   font-family: 'Poppins', sans-serif;
+  margin-left: 17px;
+   
+}
+
+.card-img-texts{
+   color: #e2e2e2;
+   padding: 8px;
+   width: 100%;
+    
+}
+.card-img{
+   width: 79%;
+   padding: 3px;
+   margin-top: 10px;
+ 
+
+
+}
+.card-img img{
+   border-radius: 10px;
+margin-top: 2px;
+}
+
+.contaienr-app-title-text{
+   font-size: 2rem;
+   color: #fff;
+   margin-top: 10px;
+}
+
+
+
+
+.container-app-card{
+   
+   margin-top: 10px;
+   display: flex;
+  padding: 10px;
+  width: 100%;
+  flex-wrap: wrap;
+
+ 
+}
+
+ 
+ 
+.card-app{
+   margin-left: 10px;
+}
+
+
+body{
+   cursor: pointer;
+}
+
+.contaienr-app-title-text span:hover{
+   border-bottom: 6px solid #FFF;
+}
+
+.battoom{
+   width: 100%;
+   height: 2000PX;
+ background-color: #121212;
+    
+}
+ 
+
+ 
+ 
+.nav-section1{
+ 
+   width: 40%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+  
+   
+   
+}
+
+
+
+.nav-section2{
+  
+   width: 100%;
+}
+
+
+.nav-section3{ 
+   width: 50%;
+}
+
+
+ 
+ 
+ 
+ 
+
+.content-nav-por{
+   
+   width: 70%;
+   height: 80%;
+   display: flex;
+    
+   align-items: center;
+
+}
+
+.content-nav-por span{
+ margin: 10px;
+ 
+}
+
+
+.up-nav-section2{
+ 
+   width: 100%;height: 50%;
+}
+
+.up-nav-section3{
+ 
+   width: 100%;height: 40%;
+}
+
+.up-nav-section2{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.custom-range {
+   height: 10px; /* Adjust the height as needed */
+   width: 80%;
+   
+ }
+
+ .up-nav-section3{
+   display: flex;  
+   justify-content: center;
+   align-content: center;  
+   align-items: center;
+
+ }
+ 
+ 
+ .time{
+   margin: 10px;
+   color: #FFF;
+   font-family: sans-serif;
+ }
+ 
+ 
+ 
+ 
+
+
+.nav-section3{
+   display: flex;
+  
+   align-items: center;
+ 
+   justify-content: center;
+    
+}
+.contaienr-app-title-text span{
+   font-size: 1.5rem;
+    font-weight: 700;
+  
+    margin-left: 20px;
+}
+ 
+ 
+ 
+.big-poppa{
+   color: red;
+}
+ 
+ 
+#play .play-list-img{
+   margin: 10px;
+}
+
+
+
+ /* width */
+::-webkit-scrollbar {
+   width: 10px;
+  
+ }
+ 
+ /* Track */
+ ::-webkit-scrollbar-track {
+   box-shadow: inset 0 0 5px grey;
+   border-radius: 10px;
+ }
+ 
+ /* Handle */
+ ::-webkit-scrollbar-thumb {
+   background: rgb(111, 196, 45);
+   border-radius: 10px;
+ }
+
+ .contaienr-left{
+ 
+     width: 20%;
+     margin-top: 10px;   
+     margin-left: 10px;    
+     background-color: #121212;
+ }
+
+ .premuim-installer{
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   justify-content: space-around;
+  
+ }
+ .up-nav-section2{
+    
+    width: 30%;
+    justify-content: space-around;
+ }
+
+ .nav-section2{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+
+ }
+ .battoom-nav-bar{
+   width: 100%;
+  
+   height: 100px;
+   display: flex;
+   background-color:   #000000;
+   color: #fff;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
+.custom-range::-webkit-slider-runnable-track {
+   background-color:  rgb(37, 172, 37)/* Set the track color to black */;
+   border-radius: 19px;
+ }
+ 
+
+ 
+ 
+
+
+
+ .card-app {
+   position: relative;
+   display: inline-block;
+ }
+ 
+ 
+
+ .card-img-btn{
+ 
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  
+}
+
+ 
+.card-img-btn button{
+   width: 80%;
+   height: 30px;
+   border: none;
+   border-radius: 6px;
+   background-color:#121212 ;
+   color: #FFF;
+   cursor: pointer;
+  
+}
+
+ 
+ 
+
+ 
+
+.card-app:hover{
+   background-color: rgb(37, 37, 37);
+  
+ 
+ }
+
+ #self{
+   
+   width: 100%;
+  
+   padding: 10px;
+   display: flex;
+   justify-content: center;
+ }
+  
+ 
+
+ .card-img-btn{
+   display: none;
+ }
+
+.card-img-btn button{
+   background-color: green;
+   border-radius: 100%;
+   width: 33%;
+   object-fit: contain;
+   color: #000000;
+   position: absolute; top: 120px; right: 3px;
+   
+ 
+}
+
+
+#sfir{
+   display: none;
+}
+
+ 
